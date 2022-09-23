@@ -11,5 +11,5 @@ elif last_digit == 0:
     print("Last digit of", number, "is", last_digit, "and is 0")
 elif last_digit != 0:
      if number < 0:
-        last_digit = int(string[-1]) * -1
+        last_digit = last_digit * -1
         print("Last digit of", number, "is", last_digit, "and is less than 6 and not 0")
